@@ -1,0 +1,11 @@
+.DS_Store
+DerivedData/
+.derivedData/
+*.xcuserstate
+xcuserdata/
+backend/.env
+backend/node_modules/
+*.log
+*.zip
+AIToy-TestFlight-Source-*/
+.edge-tts-venv/
