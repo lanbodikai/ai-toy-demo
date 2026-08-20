@@ -1,0 +1,110 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* AIToyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* AIToyApp.swift */; };
+		A10000000000000000000002 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* AppEnvironment.swift */; };
+		A10000000000000000000003 /* StoryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* StoryModels.swift */; };
+		A10000000000000000000004 /* StoryCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* StoryCatalog.swift */; };
+		A10000000000000000000005 /* ServiceProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000005 /* ServiceProtocols.swift */; };
+		A10000000000000000000006 /* LocalAnswerEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000006 /* LocalAnswerEvaluator.swift */; };
+		A10000000000000000000007 /* BackendServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000007 /* BackendServices.swift */; };
+		A10000000000000000000008 /* RealtimeTranscriptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000008 /* RealtimeTranscriptionService.swift */; };
+		A10000000000000000000009 /* CueAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000009 /* CueAudioPlayer.swift */; };
+		A1000000000000000000000A /* LessonSessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000A /* LessonSessionViewModel.swift */; };
+		A1000000000000000000000B /* ConsentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000B /* ConsentView.swift */; };
+		A1000000000000000000000C /* StoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000C /* StoryListView.swift */; };
+		A1000000000000000000000D /* StorySessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000D /* StorySessionView.swift */; };
+		A1000000000000000000000E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000E /* PrivacyInfo.xcprivacy */; };
+		A1000000000000000000000F /* LocalAnswerEvaluatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000000F /* LocalAnswerEvaluatorTests.swift */; };
+		A10000000000000000000010 /* StoryValidationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000010 /* StoryValidationTests.swift */; };
+		A10000000000000000000011 /* Audio in Resources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000013 /* Audio */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C10000000000000000000001 = {isa = PBXContainerItemProxy; containerPortal = F10000000000000000000001 /* Project object */; proxyType = 1; remoteGlobalIDString = E10000000000000000000001; remoteInfo = AIToy; };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B10000000000000000000001 /* AIToyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIToyApp.swift; sourceTree = "<group>"; };
+		B10000000000000000000002 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		B10000000000000000000003 /* StoryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryModels.swift; sourceTree = "<group>"; };
+		B10000000000000000000004 /* StoryCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCatalog.swift; sourceTree = "<group>"; };
+		B10000000000000000000005 /* ServiceProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProtocols.swift; sourceTree = "<group>"; };
+		B10000000000000000000006 /* LocalAnswerEvaluator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAnswerEvaluator.swift; sourceTree = "<group>"; };
+		B10000000000000000000007 /* BackendServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendServices.swift; sourceTree = "<group>"; };
+		B10000000000000000000008 /* RealtimeTranscriptionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtimeTranscriptionService.swift; sourceTree = "<group>"; };
+		B10000000000000000000009 /* CueAudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CueAudioPlayer.swift; sourceTree = "<group>"; };
+		B1000000000000000000000A /* LessonSessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonSessionViewModel.swift; sourceTree = "<group>"; };
+		B1000000000000000000000B /* ConsentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsentView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000C /* StoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryListView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000D /* StorySessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorySessionView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000E /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		B1000000000000000000000F /* LocalAnswerEvaluatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAnswerEvaluatorTests.swift; sourceTree = "<group>"; };
+		B10000000000000000000010 /* StoryValidationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryValidationTests.swift; sourceTree = "<group>"; };
+		B10000000000000000000011 /* AIToy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIToy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10000000000000000000012 /* AIToyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIToyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10000000000000000000013 /* Audio */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Audio; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D10000000000000000000001 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		D10000000000000000000002 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F10000000000000000000002 = {isa = PBXGroup; children = (F10000000000000000000003, F10000000000000000000009, F1000000000000000000000A); sourceTree = "<group>"; };
+		F10000000000000000000003 /* AIToy */ = {isa = PBXGroup; path = AIToy; sourceTree = "<group>"; children = (F10000000000000000000004, F10000000000000000000005, F10000000000000000000006, F10000000000000000000007, F10000000000000000000008, F1000000000000000000000B); };
+		F10000000000000000000004 /* App */ = {isa = PBXGroup; path = App; sourceTree = "<group>"; children = (B10000000000000000000001, B10000000000000000000002); };
+		F10000000000000000000005 /* Domain */ = {isa = PBXGroup; path = Domain; sourceTree = "<group>"; children = (B10000000000000000000003, B10000000000000000000004); };
+		F10000000000000000000006 /* Services */ = {isa = PBXGroup; path = Services; sourceTree = "<group>"; children = (B10000000000000000000005, B10000000000000000000006, B10000000000000000000007, B10000000000000000000008, B10000000000000000000009); };
+		F10000000000000000000007 /* Session */ = {isa = PBXGroup; path = Session; sourceTree = "<group>"; children = (B1000000000000000000000A); };
+		F10000000000000000000008 /* Views */ = {isa = PBXGroup; path = Views; sourceTree = "<group>"; children = (B1000000000000000000000B, B1000000000000000000000C, B1000000000000000000000D); };
+		F10000000000000000000009 /* Tests */ = {isa = PBXGroup; path = AIToyTests; sourceTree = "<group>"; children = (B1000000000000000000000F, B10000000000000000000010); };
+		F1000000000000000000000A /* Products */ = {isa = PBXGroup; name = Products; sourceTree = "<group>"; children = (B10000000000000000000011, B10000000000000000000012); };
+		F1000000000000000000000B /* Resources */ = {isa = PBXGroup; path = Resources; sourceTree = "<group>"; children = (B1000000000000000000000E, B10000000000000000000013); };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E10000000000000000000001 /* AIToy */ = {isa = PBXNativeTarget; buildConfigurationList = F10000000000000000000011; buildPhases = (D10000000000000000000003, D10000000000000000000001, D10000000000000000000005); buildRules = (); dependencies = (); name = AIToy; productName = AIToy; productReference = B10000000000000000000011; productType = "com.apple.product-type.application"; };
+		E10000000000000000000002 /* AIToyTests */ = {isa = PBXNativeTarget; buildConfigurationList = F10000000000000000000012; buildPhases = (D10000000000000000000004, D10000000000000000000002); buildRules = (); dependencies = (C10000000000000000000002); name = AIToyTests; productName = AIToyTests; productReference = B10000000000000000000012; productType = "com.apple.product-type.bundle.unit-test"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F10000000000000000000001 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = YES; LastSwiftUpdateCheck = 2660; LastUpgradeCheck = 2660; TargetAttributes = {E10000000000000000000001 = {CreatedOnToolsVersion = 26.0;}; E10000000000000000000002 = {CreatedOnToolsVersion = 26.0; TestTargetID = E10000000000000000000001;};};}; buildConfigurationList = F10000000000000000000010; compatibilityVersion = "Xcode 16.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = F10000000000000000000002; productRefGroup = F1000000000000000000000A; projectDirPath = ""; projectRoot = ""; targets = (E10000000000000000000001, E10000000000000000000002); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D10000000000000000000005 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (A1000000000000000000000E, A10000000000000000000011); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D10000000000000000000003 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001, A10000000000000000000002, A10000000000000000000003, A10000000000000000000004, A10000000000000000000005, A10000000000000000000006, A10000000000000000000007, A10000000000000000000008, A10000000000000000000009, A1000000000000000000000A, A1000000000000000000000B, A1000000000000000000000C, A1000000000000000000000D); runOnlyForDeploymentPostprocessing = 0; };
+		D10000000000000000000004 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A1000000000000000000000F, A10000000000000000000010); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C10000000000000000000002 = {isa = PBXTargetDependency; target = E10000000000000000000001; targetProxy = C10000000000000000000001; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F10000000000000000000020 = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_TESTABILITY = YES; GCC_C_LANGUAGE_STANDARD = gnu17; IPHONEOS_DEPLOYMENT_TARGET = 17.0; MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE; ONLY_ACTIVE_ARCH = YES; SDKROOT = iphoneos; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)"; SWIFT_OPTIMIZATION_LEVEL = "-Onone";}; name = Debug; };
+		F10000000000000000000021 = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; COPY_PHASE_STRIP = YES; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; GCC_C_LANGUAGE_STANDARD = gnu17; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SDKROOT = iphoneos; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_OPTIMIZATION_LEVEL = "-O"; VALIDATE_PRODUCT = YES;}; name = Release; };
+		F10000000000000000000022 = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = ""; ENABLE_PREVIEWS = YES; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "AI Toy"; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education"; INFOPLIST_KEY_NSAppTransportSecurity_NSAllowsLocalNetworking = YES; INFOPLIST_KEY_NSMicrophoneUsageDescription = "AI Toy uses the microphone only while the learner holds the talk button so it can understand story answers."; INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.riselink.aitoy; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1;}; name = Debug; };
+		F10000000000000000000023 = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = ""; ENABLE_PREVIEWS = YES; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "AI Toy"; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education"; INFOPLIST_KEY_NSAppTransportSecurity_NSAllowsLocalNetworking = YES; INFOPLIST_KEY_NSMicrophoneUsageDescription = "AI Toy uses the microphone only while the learner holds the talk button so it can understand story answers."; INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.riselink.aitoy; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1;}; name = Release; };
+		F10000000000000000000024 = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.riselink.aitoy.tests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AIToy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AIToy";}; name = Debug; };
+		F10000000000000000000025 = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.riselink.aitoy.tests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AIToy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AIToy";}; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F10000000000000000000010 = {isa = XCConfigurationList; buildConfigurations = (F10000000000000000000020, F10000000000000000000021); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		F10000000000000000000011 = {isa = XCConfigurationList; buildConfigurations = (F10000000000000000000022, F10000000000000000000023); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		F10000000000000000000012 = {isa = XCConfigurationList; buildConfigurations = (F10000000000000000000024, F10000000000000000000025); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = F10000000000000000000001 /* Project object */;
+}
